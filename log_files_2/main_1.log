@@ -1,0 +1,36 @@
+2025-06-08 19:20:14,562 - INFO - Data loaded successfully
+2025-06-08 19:20:14,569 - WARNING - Columns with null values : []
+2025-06-08 19:20:14,571 - INFO - Unwanted columns removed successfully
+2025-06-08 19:20:14,574 - INFO - Training data: (455, 455)
+2025-06-08 19:20:14,574 - INFO - Testing data: (114, 114)
+2025-06-08 19:20:14,575 - INFO - Catgeorical column from the data : Index([], dtype='object')
+2025-06-08 19:20:14,576 - INFO - Categorical Columns from the data  : Index([], dtype='object')
+2025-06-08 19:20:14,576 - INFO - All numerical columns log-transformed successfully.
+2025-06-08 19:20:14,715 - INFO - Outliers handled using 5th–95th percentile clipping.
+2025-06-08 19:20:14,715 - INFO - Outliers handled from the training and testing data successfully
+2025-06-08 19:20:14,715 - INFO - Feature Engineering Completed 
+2025-06-08 19:20:14,718 - INFO - Concatinated Both columns  Successfully
+2025-06-08 19:20:14,718 - INFO - Size Of the Traning Data : (455, 30)
+2025-06-08 19:20:14,718 - INFO - Size Of The Testing Data : (114, 30)
+2025-06-08 19:20:14,723 - INFO - After Removing Low Variance Columns, shapes are: (455, 4), (114, 4)
+2025-06-08 19:20:14,728 - INFO - Converted Column values M - 1 and B - 0 successfully
+2025-06-08 19:20:14,732 - INFO - After Removing unwanted columns using Hypothesis testing from train data: (455, 4)
+2025-06-08 19:20:14,733 - INFO - After removing unwanted columns using Hypothesis testing from test data: (114, 4)
+2025-06-08 19:20:14,733 - INFO - Before Upsampling (SMOTE)
+2025-06-08 19:20:14,733 - INFO - Class 0 Count (Benign): 286
+2025-06-08 19:20:14,733 - INFO - Class 1 Count (Malignant): 169
+2025-06-08 19:20:14,743 - INFO - After Upsampling (SMOTE Applied)
+2025-06-08 19:20:14,743 - INFO - Class 0 Count (Benign): 286
+2025-06-08 19:20:14,743 - INFO - Class 1 Count (Malignant): 286
+2025-06-08 19:20:14,755 - INFO - First 3 rows of training data before scaling:
+   area_mean  perimeter_se   area_se  area_worst
+0   5.609872      1.059525  2.926918    5.793246
+1   7.171731      1.688988  4.412313    7.597834
+2   5.609872      1.283154  3.199489    5.793246
+2025-06-08 19:20:14,762 - INFO - Feature scaling done using StandardScaler.
+2025-06-08 19:20:14,762 - INFO - Scaled Training Data Sample:
+[[-1.84923705 -0.67868017 -0.90649261 -1.75937844]
+ [ 1.58814771  1.01620127  1.33085188  1.66349539]
+ [-1.84923705 -0.07654158 -0.49593823 -1.75937844]]
+2025-06-08 19:20:14,776 - INFO - Model prediction  : None
+2025-06-08 19:20:14,776 - INFO - columns names : Index(['area_mean', 'perimeter_se', 'area_se', 'area_worst'], dtype='object')

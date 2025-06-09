@@ -1,0 +1,1 @@
+2025-06-08 19:20:14,775 - ERROR - Error from Line no : 17 Issue : X has 14 features, but LogisticRegression is expecting 4 features as input.
